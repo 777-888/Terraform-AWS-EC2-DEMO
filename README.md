@@ -15,6 +15,7 @@ terraform-aws-ec2-demo/
 ├── outputs.tf      # Outputs (e.g. public IP, instance ID)
 ├── terraform.tfvars # Variable values (not committed if sensitive)
 
+
 ⚙️ How It Works
 Define infrastructure in Terraform files (.tf).
 Initialize Terraform to download provider plugins.
