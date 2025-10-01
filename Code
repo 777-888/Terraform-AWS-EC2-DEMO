@@ -50,12 +50,16 @@ output "public_ip" {
   value       = aws_instance.demo.public_ip
 }
 📄 terraform.tfvars (optional – don’t commit if it has sensitive data)
+
 ami_id = "ami-0c55b159cbfafe1f0" # Replace with a valid Amazon Linux 2 AMI for eu-west-2
+
 🚦 How to run it
+
 terraform init
 terraform plan
 terraform apply
 You’ll get back the instance_id and public_ip when it spins up.
+
 ⚡ Pro tip: check the right Amazon Linux 2 AMI for your region here or via CLI:
 aws ec2 describe-images \
   --owners amazon \
