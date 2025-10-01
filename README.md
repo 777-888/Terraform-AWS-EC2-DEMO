@@ -42,3 +42,7 @@ region	AWS region to deploy into	eu-west-2
 instance_type	EC2 instance type	t2.micro
 ami_id	Amazon Linux 2 AMI ID (region-specific)	None
 
+🎯 Learning Outcomes
+Use Terraform to provision AWS infrastructure.
+Manage infrastructure lifecycle with init, plan, apply, and destroy.
+Apply Infrastructure as Code (IaC) principles for repeatable deployments.
