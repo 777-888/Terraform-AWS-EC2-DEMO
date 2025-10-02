@@ -58,6 +58,7 @@ ami_id = "ami-0c55b159cbfafe1f0" # Replace with a valid Amazon Linux 2 AMI for e
 terraform init
 terraform plan
 terraform apply
+
 You’ll get back the instance_id and public_ip when it spins up.
 
 ⚡ Pro tip: check the right Amazon Linux 2 AMI for your region here or via CLI:
